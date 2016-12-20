@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Recipes For Christmas</title>
+	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Itim|Pacifico" rel="stylesheet"> 
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<a href="website.html" id="logo">
+			<h1>Recipes</h1>
+		</a>
+		<nav>
+			
+			<a href="home.html">Home</a>
+			<a href="recipe.html">Recipes</a>
+			<a href="Contact.html">Contact</a>
+			<a href="addrecipe.html" class="selected">Add Recipe</a>
+			
+		</nav>
+	</header>
+	<div class="container">
+		<div class="recipe">
+		<h1>Add Recipe</h1>
+		<img src="addrecipe.png">
+		<div class="recipe_description">
+			<section class="block">
+			<h3  class="ingredientss">Add Your Recipe Here</h3>
+			<form action="mailto:tsvetinkadimitrova@yahoo.com" method:"post">
+				<div>
+					<label for="name">Name </label>
+					<input type="text" name="Name" id="name"/>
+				</div>
+				<div>
+					<label>
+						Gender:
+					</label>
+					<input type="radio" name="sex" value="Male"/>Male
+					<input type="radio" name="sex" value="Female"/>Female
+				</div>
+			<p>
+				<div>
+					Select Category:
+				</div>
+				<select name="Category">
+					<option value="1" selected="selected">-</option>
+					<option value="2">Pasta & risotto</option>
+					<option value="3">Salad</option>
+					<option value="4">Bread & doughs</option>
+					<option value="5">Curry</option>
+					<option value="6">Soup</option>
+					<option value="7">Antipasti</option>
+					<option value="8">Roast</option>
+					<option value="9">BBQ food</option>
+					<option value="10">Stew</option>
+					<option value="11">Pizza</option>
+					<option value="12">Sandwiches & wraps</option>
+					<option value="13">Cakes & tea time treats</option>
+					<option value="14">Sauces & condiments</option>
+					<option value="15">Pies & pastries</option>
+					<option value="16">Puddings & desserts</option>
+					<option value="17">Drinks</option>
+					<option value="18">Wood-fired recipes</option>
+					<option value="19">Cookies</option>
+					<option value="20">Meatballs</option>
+					<option value="21">Muffins</option>
+					<option value="22">Pasta bakes</option>
+				</select>
+			</p>
+			<p>
+				<div>
+					<label>
+						Allergens:
+					</label>
+					<input type="checkbox" name="allergens" value="peanut">Peanut
+					<input type="checkbox" name="allergens" value="treenuts">Tree Nuts
+					<input type="checkbox" name="allergens" value="milk">Milk
+					<input type="checkbox" name="allergens" value="egg">Egg
+					<input type="checkbox" name="allergens" value="wheat">Wheat
+					<input type="checkbox" name="allergens" value="soy">Soy
+					<input type="checkbox" name="allergens" value="fish">Fish
+					<input type="checkbox" name="allergens" value="shellfish">Shellfish
+					<input type="checkbox" name="allergens" value="sesame">Sesame
+				</div>
+			</p>
+			</form>
+
+			</section><!--block-->
+
+			<section class="directions">
+				<h5>Recipe</h5>
+				<div>	
+			<textarea>
+				Write your recipe here..
+			</textarea>
+			<input type="submit" value="send"> 
+		</div>
+
+			</section>
+
+		</div> <!-- recipe description -->
+		</div> <!-- recipe -->
+
+	</div> <!-- Close container -->
+		<footer>
+			<a href="http://facebook.com/cvetinka.dimitrova.7"><img src="Facebook_logo.png" alt="Facebook Logo"></a>
+			<a href="http://twitter.com/TsvetinkaD"><img src="Twitter-Logo.png" alt="Twitter Logo"></a>
+			<p>&copy; 2016 Tsvetinka Dimitrova</p>
+		</footer>
+	</body>
+</html>
